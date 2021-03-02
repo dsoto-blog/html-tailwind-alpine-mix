@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-alpine-mix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.13",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
